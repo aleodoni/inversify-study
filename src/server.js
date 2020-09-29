@@ -8,8 +8,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   const weapon = container.get(TYPES.Katana);
-  console.log(weapon.hit());
-  res.send('Hello World');
+  res.send(`My weapon will ${weapon.hit()} you !!!`);
 });
 
 app.listen(port, () => {

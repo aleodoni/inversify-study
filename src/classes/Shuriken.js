@@ -1,6 +1,6 @@
 class Shuriken {
   constructor() {
-    this.action = 'hit!';
+    this.action = 'HIT';
   }
 
   hit() {

@@ -1,6 +1,6 @@
 class Katana {
   constructor() {
-    this.action = 'cut!';
+    this.action = 'CUT';
   }
 
   hit() {

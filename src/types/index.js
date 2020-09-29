@@ -1,5 +1,5 @@
 const TYPES = {
-  Katana: 'katana',
+  Katana: 'Katana',
   Shuriken: 'Shuriken',
 };
 
